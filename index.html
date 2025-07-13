@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🧠 You're Actually Smart 🧠</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Verdana', sans-serif;
+      background-image: url('imgs/stars.gif'); /* starfield gif */
+      background-repeat: repeat;
+      background-size: auto;
+      color: #fff;
+    }
+
+    marquee {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #000;
+      color: #ff00ff;
+      font-weight: bold;
+      font-size: 1.3em;
+      padding: 10px 0;
+      border-bottom: 3px solid #ff00ff;
+      z-index: 1000;
+      text-shadow: 1px 1px 3px #00ffff;
+    }
+
+    .content-wrapper {
+      max-width: 700px;
+      margin: 100px auto 50px auto;
+      background-color: rgba(0, 0, 0, 0.75); /* translucent panel */
+      border: 3px double #00ffff;
+      padding: 2em;
+      box-shadow: 0 0 15px #ff00ff;
+    }
+
+    .main-img {
+      max-width: 25%;
+      height: auto;
+      border: 2px dashed #ffcc00;
+      margin-bottom: 1em;
+	  margin: 0 auto;
+	  display: block;
+	  
+    }
+	
+	@keyframes slow-blink {
+	  0% { opacity: 1; }
+	  50% { opacity: 0.2; }
+	  100% { opacity: 1; }
+	}
+
+	.alert-text {
+	  color: red;
+	  animation: slow-blink 2s infinite;
+	  font-weight: bold;
+	}
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.5em;
+      color: #00ffcc;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    a {
+      color: #ffcc00;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <marquee behavior="alternate" direction="left" scrollamount="6">
+    ✨ YOU'RE NOT STUPID - JUST LEARNING EVERY DAY ✨
+  </marquee>
+
+  <div class="content-wrapper">
+    <img class="main-img" src="imgs/me.png" alt="All Me">
+    <p>
+      Thank you for visiting my webpage. Enjoy your stay here.<br><br>
+      My name is David and this is my website. This is where I hangout when logged in on the world wide web!<br><br>
+	  Some of my favorite things lately have been... hmm hanging out with friends, listening to fun music, and learning!<br><br>
+	  <span class="alert-text">One thing I've never told anyone:</span><br>
+	  I know this is strange, but one of my favorite snacks? Cucumber! No salt, no sauce, just sliced up and.... GULP!<br>
+    </p>
+    <p>
+      🌀 <a href="https://www.instagram.com/gods_father/" target="_blank">Check out my Instagram</a><br>
+      📡 <a href="mailto:yourefunbro@gmail.com?subject=Came%20across%20your%20website%20and%20just%20wanted%20to%20say..." target="_blank">Email me and tell me a secret</a>
+    </p>
+  </div>
+
+</body>
+</html>
